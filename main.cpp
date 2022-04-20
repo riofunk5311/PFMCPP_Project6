@@ -146,7 +146,7 @@ int main()
     }//9
     else
     {
-        std::cout << "Maybe because comparing both values of t1 and t2" << std::endl;  // Not exatly sure
+        std::cout << "Both a->value and b->value are equal or the value returned from smaller function is nullptr" << std::endl;     
     }
     
     U u;
