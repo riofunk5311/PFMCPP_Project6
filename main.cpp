@@ -72,6 +72,10 @@ struct Comparison //4
             if( a->value < b->value ) return a;
             if( a->value > b->value ) return b;
         }
+        else if ( a == b || a == nullptr || b == nullptr )
+        {
+            return nullptr;
+        }
         return nullptr;
     }
 };
@@ -146,7 +150,7 @@ int main()
     }//9
     else
     {
-        std::cout << "If both a and b is not null and a->value equals to b->value, both return statements to be skipped." << std::endl;     
+        std::cout << "nullptr returned because one or more function arguments are null, or because both function arguments have the same value." << std::endl;     
     }
     
     U u;
