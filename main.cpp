@@ -146,7 +146,7 @@ int main()
     }//9
     else
     {
-        std::cout << "Both a->value and b->value are equal or the value returned from smaller function is nullptr" << std::endl;     
+        std::cout << "If both a and b is not null and a->value equals to b->value, both return statements to be skipped." << std::endl;     
     }
     
     U u;
