@@ -72,10 +72,6 @@ struct Comparison //4
             if( a->value < b->value ) return a;
             if( a->value > b->value ) return b;
         }
-        else if ( a == b || a == nullptr || b == nullptr )
-        {
-            return nullptr;
-        }
         return nullptr;
     }
 };
